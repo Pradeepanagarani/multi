@@ -12,7 +12,7 @@ import java.util.Optional;
 @Service
 public class HomeService {
 
-    @Autowired
+    @Autowired(required=true)
     EmployeeDao employeeDao;
 
     public List<Employee> employeeList() {

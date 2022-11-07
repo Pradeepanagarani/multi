@@ -9,7 +9,7 @@ public class Address {
 	public String getPincode() {
 		return pincode;
 	}
-	public void setPincode(String pincode) {
+	public void setPincode(String pincode) { 
 		this.pincode = pincode;
 	}
 	public String getStreet() {
